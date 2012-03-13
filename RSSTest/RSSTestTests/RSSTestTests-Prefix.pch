@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'RSSTestTests' target in the 'RSSTestTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
