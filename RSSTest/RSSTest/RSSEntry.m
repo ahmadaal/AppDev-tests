@@ -14,16 +14,18 @@
 @synthesize blogTitle = _blogTitle;
 @synthesize blogURL = _blogURL;
 @synthesize articleTitle = _articleTitle;
-@synthesize articleText = _articleText;
 @synthesize articleURL = _articleURL;
 @synthesize articleDate = _articleDate;
 
-- (RSSEntry*)initWithBlogTitle:(NSString*)blogTitle blogURL:(NSString*)blogURL articleTitle:(NSString*)articleTitle articleText:(NSString*)articleText articleURL:(NSString*)articleURL articleDate:(NSDate*)articleDate {
+- (RSSEntry*)initWithBlogTitle:(NSString*)blogTitle
+                       blogURL:(NSString*)blogURL
+                  articleTitle:(NSString*)articleTitle
+                    articleURL:(NSString*)articleURL
+                   articleDate:(NSDate*)articleDate {
     
     _blogTitle = [blogTitle copy];
     _blogURL = [blogURL copy];
     _articleTitle = [articleTitle copy];
-    _articleText = [articleText copy];
     _articleURL = [articleURL copy];
     _articleDate = [articleDate copy];
     
@@ -35,7 +37,6 @@
     [_blogURL release];
     [_articleTitle release];
     [_articleDate release];
-    [_articleText release];
     [_articleURL release];
     [super dealloc];
 }

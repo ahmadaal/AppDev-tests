@@ -15,7 +15,6 @@
     NSString *_blogURL;
     NSString *_articleTitle;
     NSString *_articleURL;
-    NSString *_articleText;
     NSDate *_date;
 
 }
@@ -24,9 +23,12 @@
 @property (copy) NSString *blogURL;
 @property (copy) NSString *articleTitle;
 @property (copy) NSString *articleURL;
-@property (copy) NSString *articleText;
 @property (copy) NSDate *articleDate;
 
-- (RSSEntry*)initWithBlogTitle:(NSString*)bt blogURL:(NSString*)bu articleTitle:(NSString*)atit articleText:(NSString*)atext articleURL:(NSString*)au articleDate:(NSDate*)ad;
+- (RSSEntry*)initWithBlogTitle:(NSString*)bt 
+                       blogURL:(NSString*)bu 
+                  articleTitle:(NSString*)atit 
+                    articleURL:(NSString*)au 
+                   articleDate:(NSDate*)ad;
 
 @end

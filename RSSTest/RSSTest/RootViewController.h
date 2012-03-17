@@ -11,7 +11,10 @@
 @interface RootViewController : UITableViewController {
 
     NSMutableArray *_entries;
+    NSOperationQueue *_opQueue;
+    NSArray *_feeds;
 }
 @property (retain, nonatomic) NSMutableArray *entries;
-
+@property (retain) NSOperationQueue *opQueue;
+@property (retain) NSArray *feeds;
 @end
