@@ -9,69 +9,13 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "RSSTest/RootViewController.h"
-         timestampString = "353370269.182158"
+         timestampString = "354230210.538771"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "15"
-         endingLineNumber = "15"
+         startingLineNumber = "17"
+         endingLineNumber = "17"
          landmarkName = "entries"
          landmarkType = "19">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "Yes"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         isPathRelative = "1"
-         filePath = "RSSTest/RootViewController.m"
-         timestampString = "353716880.526523"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "228"
-         endingLineNumber = "228"
-         landmarkName = "-tableView:cellForRowAtIndexPath:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "Yes"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         isPathRelative = "1"
-         filePath = "RSSTest/RootViewController.m"
-         timestampString = "353716880.526523"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "147"
-         endingLineNumber = "147"
-         landmarkName = "-addSomeRows"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "No"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         isPathRelative = "1"
-         filePath = "RSSTest/RootViewController.m"
-         timestampString = "353716880.526523"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "143"
-         endingLineNumber = "143"
-         landmarkName = "-addSomeRows"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "Yes"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         isPathRelative = "1"
-         filePath = "RSSTest/RootViewController.m"
-         timestampString = "353716880.526523"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "61"
-         endingLineNumber = "61"
-         landmarkName = "-requestFinished:"
-         landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "No"
@@ -119,11 +63,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "RSSTest/RootViewController.m"
-         timestampString = "353715143.527487"
+         timestampString = "354230210.538771"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "47"
-         endingLineNumber = "47"
+         startingLineNumber = "109"
+         endingLineNumber = "109"
          landmarkName = "-requestFinished:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -133,12 +77,12 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "RSSTest/RootViewController.m"
-         timestampString = "353716408.243991"
+         timestampString = "354230758.57068"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "75"
-         endingLineNumber = "75"
-         landmarkName = "-parseRSS:entries:"
+         startingLineNumber = "72"
+         endingLineNumber = "72"
+         landmarkName = "-parseAtom:entries:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

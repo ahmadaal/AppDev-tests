@@ -25,10 +25,10 @@
 @property (copy) NSString *articleURL;
 @property (copy) NSDate *articleDate;
 
-- (RSSEntry*)initWithBlogTitle:(NSString*)bt 
-                       blogURL:(NSString*)bu 
-                  articleTitle:(NSString*)atit 
-                    articleURL:(NSString*)au 
-                   articleDate:(NSDate*)ad;
+- (RSSEntry*)initWithBlogTitle:(NSString*)blogTitle
+                       blogURL:(NSString*)blogURL
+                  articleTitle:(NSString*)articleTitle
+                    articleURL:(NSString*)articleURL
+                   articleDate:(NSDate*)articleDate;
 
 @end

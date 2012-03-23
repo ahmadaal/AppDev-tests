@@ -23,6 +23,8 @@
 		870BFF27150FEC5700404B03 /* RSSTestTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 870BFF26150FEC5700404B03 /* RSSTestTests.h */; };
 		870BFF29150FEC5700404B03 /* RSSTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 870BFF28150FEC5700404B03 /* RSSTestTests.m */; };
 		870BFF34150FEC8D00404B03 /* RSSEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 870BFF33150FEC8D00404B03 /* RSSEntry.m */; };
+		873C73E3151D1A6F00B8483B /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873C73E1151D1A6F00B8483B /* WebViewController.m */; };
+		873C73E4151D1A6F00B8483B /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873C73E2151D1A6F00B8483B /* WebViewController.xib */; };
 		874A46FF15129AAA000256EC /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 874A46E915129AAA000256EC /* Reachability.m */; };
 		874A470015129AAA000256EC /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 874A46EC15129AAA000256EC /* ASINetworkQueue.m */; };
 		874A470115129AAA000256EC /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 874A46EE15129AAA000256EC /* ASIInputStream.m */; };
@@ -73,6 +75,9 @@
 		870BFF28150FEC5700404B03 /* RSSTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSTestTests.m; sourceTree = "<group>"; };
 		870BFF32150FEC8D00404B03 /* RSSEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSEntry.h; sourceTree = "<group>"; };
 		870BFF33150FEC8D00404B03 /* RSSEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSEntry.m; sourceTree = "<group>"; };
+		873C73E0151D1A6F00B8483B /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		873C73E1151D1A6F00B8483B /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		873C73E2151D1A6F00B8483B /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
 		874A46E915129AAA000256EC /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ASIHTTPRequest/Reachability.m; sourceTree = "<group>"; };
 		874A46EA15129AAA000256EC /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ASIHTTPRequest/Reachability.h; sourceTree = "<group>"; };
 		874A46EB15129AAA000256EC /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ASIProgressDelegate.h; path = ASIHTTPRequest/ASIProgressDelegate.h; sourceTree = "<group>"; };
@@ -175,6 +180,9 @@
 				870BFF0B150FEC5700404B03 /* MainWindow.xib */,
 				870BFF0E150FEC5700404B03 /* RootViewController.h */,
 				870BFF0F150FEC5700404B03 /* RootViewController.m */,
+				873C73E0151D1A6F00B8483B /* WebViewController.h */,
+				873C73E1151D1A6F00B8483B /* WebViewController.m */,
+				873C73E2151D1A6F00B8483B /* WebViewController.xib */,
 				876F3EA915153A8F00AB4459 /* GDataXML */,
 				870BFF11150FEC5700404B03 /* RootViewController.xib */,
 				870BFF32150FEC8D00404B03 /* RSSEntry.h */,
@@ -325,6 +333,7 @@
 				870BFF04150FEC5700404B03 /* InfoPlist.strings in Resources */,
 				870BFF0D150FEC5700404B03 /* MainWindow.xib in Resources */,
 				870BFF13150FEC5700404B03 /* RootViewController.xib in Resources */,
+				873C73E4151D1A6F00B8483B /* WebViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +384,7 @@
 				874A470715129AAA000256EC /* ASIAuthenticationDialog.m in Sources */,
 				876F3EAD15153AD600AB4459 /* GDataXMLNode.m in Sources */,
 				876F3EB315154B3F00AB4459 /* GDataXMLExtra.m in Sources */,
+				873C73E3151D1A6F00B8483B /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
