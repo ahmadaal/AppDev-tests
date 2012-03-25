@@ -63,11 +63,11 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "RSSTest/RootViewController.m"
-         timestampString = "354230210.538771"
+         timestampString = "354330676.330304"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "109"
-         endingLineNumber = "109"
+         startingLineNumber = "110"
+         endingLineNumber = "110"
          landmarkName = "-requestFinished:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -77,12 +77,40 @@
          continueAfterRunningActions = "No"
          isPathRelative = "1"
          filePath = "RSSTest/RootViewController.m"
-         timestampString = "354230758.57068"
+         timestampString = "354330676.330304"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "72"
-         endingLineNumber = "72"
+         startingLineNumber = "73"
+         endingLineNumber = "73"
          landmarkName = "-parseAtom:entries:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "RSSTest/RootViewController.h"
+         timestampString = "354330659.169746"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "27"
+         endingLineNumber = "27"
+         landmarkName = "@interface RootViewController"
+         landmarkType = "2">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "RSSTest.xcodeproj/AddViewController.m"
+         timestampString = "354334184.146163"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "43"
+         endingLineNumber = "43"
+         landmarkName = "-viewDidLoad"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

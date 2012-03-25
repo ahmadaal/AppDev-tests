@@ -20,7 +20,6 @@
 @synthesize feeds = _feeds;
 @synthesize web = _web;
 
-
 -(void)parseRSS:(GDataXMLElement *)rootElement entries:(NSMutableArray *)array {
     NSArray *channels = [rootElement elementsForName:@"channel"];
     for (GDataXMLElement *channel in channels) {
@@ -163,9 +162,24 @@
 }
 */
 
+-(void)addButtonWasPressed:(id)sender {
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Add button was pressed" 
+                                                    message:@"You pressed a button" 
+                                                   delegate:self
+                                          cancelButtonTitle:@"Okay" 
+                                          otherButtonTitles:nil, nil];
+    [alert show];
+    [alert release];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithTitle:@"+" style:UIBarButtonItemStylePlain target:self action:@selector(addButtonWasPressed:)];
+    self.navigationItem.rightBarButtonItem = addButton;
+    
+    
     
     self.title = @"Aaltan RSS Test";
     _entries = [[NSMutableArray array] retain];
@@ -189,6 +203,7 @@
                   nil];    
     [self refresh];
 } 
+
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];

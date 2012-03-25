@@ -40,6 +40,8 @@
 		874A470F15129B72000256EC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 874A470E15129B72000256EC /* CFNetwork.framework */; };
 		876F3EAD15153AD600AB4459 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 876F3EAB15153AD600AB4459 /* GDataXMLNode.m */; };
 		876F3EB315154B3F00AB4459 /* GDataXMLExtra.m in Sources */ = {isa = PBXBuildFile; fileRef = 876F3EB215154B3F00AB4459 /* GDataXMLExtra.m */; };
+		87FAD62D151EB34C005156AD /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FAD62B151EB34C005156AD /* AddViewController.m */; };
+		87FAD62E151EB34C005156AD /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87FAD62C151EB34C005156AD /* AddViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +110,9 @@
 		876F3EAC15153AD600AB4459 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = GDataXML/GDataXMLNode.h; sourceTree = "<group>"; };
 		876F3EB115154B3F00AB4459 /* GDataXMLExtra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLExtra.h; sourceTree = "<group>"; };
 		876F3EB215154B3F00AB4459 /* GDataXMLExtra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLExtra.m; sourceTree = "<group>"; };
+		87FAD62A151EB34C005156AD /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddViewController.h; path = RSSTest.xcodeproj/AddViewController.h; sourceTree = SOURCE_ROOT; };
+		87FAD62B151EB34C005156AD /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddViewController.m; path = RSSTest.xcodeproj/AddViewController.m; sourceTree = SOURCE_ROOT; };
+		87FAD62C151EB34C005156AD /* AddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AddViewController.xib; path = RSSTest.xcodeproj/AddViewController.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +188,9 @@
 				873C73E0151D1A6F00B8483B /* WebViewController.h */,
 				873C73E1151D1A6F00B8483B /* WebViewController.m */,
 				873C73E2151D1A6F00B8483B /* WebViewController.xib */,
+				87FAD62A151EB34C005156AD /* AddViewController.h */,
+				87FAD62B151EB34C005156AD /* AddViewController.m */,
+				87FAD62C151EB34C005156AD /* AddViewController.xib */,
 				876F3EA915153A8F00AB4459 /* GDataXML */,
 				870BFF11150FEC5700404B03 /* RootViewController.xib */,
 				870BFF32150FEC8D00404B03 /* RSSEntry.h */,
@@ -334,6 +342,7 @@
 				870BFF0D150FEC5700404B03 /* MainWindow.xib in Resources */,
 				870BFF13150FEC5700404B03 /* RootViewController.xib in Resources */,
 				873C73E4151D1A6F00B8483B /* WebViewController.xib in Resources */,
+				87FAD62E151EB34C005156AD /* AddViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +394,7 @@
 				876F3EAD15153AD600AB4459 /* GDataXMLNode.m in Sources */,
 				876F3EB315154B3F00AB4459 /* GDataXMLExtra.m in Sources */,
 				873C73E3151D1A6F00B8483B /* WebViewController.m in Sources */,
+				87FAD62D151EB34C005156AD /* AddViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
