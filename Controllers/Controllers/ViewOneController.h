@@ -15,7 +15,7 @@
 
 @interface ViewOneController : UIViewController {
     UISlider *slider;
-    int sliderval;
+    float sliderval;
     UILabel *label;
     UIViewController *rootview;
     ColorModel *colorModel;
@@ -25,7 +25,7 @@
 }
 
 @property (nonatomic, retain) IBOutlet UISlider *slider;
-@property (nonatomic) int sliderval;
+@property (nonatomic) float sliderval;
 @property (nonatomic, retain) IBOutlet UILabel *label;
 @property (nonatomic, retain) IBOutlet UIButton *button;
 @property (nonatomic, retain) UIViewController *rootview;

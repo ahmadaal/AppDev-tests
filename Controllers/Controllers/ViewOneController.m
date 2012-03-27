@@ -24,9 +24,9 @@
                                           otherButtonTitles:nil, nil];
      [alert show];
      */
-    self.label.text = [NSString stringWithFormat:@"%d",sliderval];
-    NSLog(@"sliderVal/255.0: %F",((double)sliderval)/255.0);
-    [self.colorModel setColorDbl:((double)sliderval)/255.0];
+    self.label.text = [NSString stringWithFormat:@"%d",(int)sender.value];
+    //NSLog(@"sliderVal/255.0: %F",((double)sliderval)/255.0);
+    [self.colorModel setColorDbl:sender.value/255.0];
 
 }
 
@@ -70,7 +70,17 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    slider.value = [colorModel colorDbl]*255;
+    
+    //trying to get slider to set value on first load
+    
+    NSLog(@"color: %F",[colorModel colorDbl]);
+    //slider.value = (double)[colorModel colorDbl]*254;
+    sliderval = 40.0;
+    slider.value = sliderval;
+    NSLog(@"slider value: %F",slider.value);
+    
+    //end attempt
+    
     [self.button setTitle:@"view 2" forState:UIControlStateNormal];
     viewtwo = [[ViewTwoController alloc] init];
     viewtwo.colorModel = colorModel;
@@ -88,6 +98,7 @@
 }
 
 -(void)viewDidDisappear:(BOOL)animated {
+    sliderval = slider.value;
 }
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {

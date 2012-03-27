@@ -8,21 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@class WebViewController;
+@class RSSModel, WebViewController;
 
 @interface RootViewController : UITableViewController {
-
-    NSMutableArray *_entries;
-    NSOperationQueue *_opQueue;
-    NSArray *_feeds;
+    RSSModel *_rssmodel;
     WebViewController *_web;
 }
 
-
-
-@property (retain, nonatomic) NSMutableArray *entries;
-@property (retain) NSOperationQueue *opQueue;
-@property (retain) NSArray *feeds;
+@property (retain) RSSModel *rssmodel;
 @property (retain) WebViewController *web;
-
 @end

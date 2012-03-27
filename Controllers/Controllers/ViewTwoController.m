@@ -42,7 +42,7 @@
     [super viewDidLoad];
     
     possibleColors = [[NSArray alloc] initWithObjects:@"20",@"50",@"70",@"100",@"140",@"170",@"200",@"220",@"255", nil];
-    
+    self.title = @"Choose a color";
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;

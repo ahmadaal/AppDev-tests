@@ -7,7 +7,6 @@
 //
 
 #import "AddViewController.h"
-#import "AppDelegate.h"
 
 @implementation AddViewController
 
@@ -42,9 +41,6 @@
     [super viewDidLoad];
      //AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     
-    AppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-    rootView = appDelegate.rootViewController;
-    rootView.
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
  

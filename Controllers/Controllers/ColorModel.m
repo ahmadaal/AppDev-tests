@@ -16,9 +16,9 @@
 -(UIColor *)colorfromInt {
     CGFloat colorDblAsCGFloat = (CGFloat)colorDbl;
     NSLog(@"colorDblAsCGFloat is %f",colorDblAsCGFloat);
-    return [UIColor colorWithRed:colorDbl                                   
-                           green:colorDbl/2
-                            blue:colorDbl/4
+    return [UIColor colorWithRed:colorDbl/4                                   
+                           green:colorDbl/3
+                            blue:colorDbl
                            alpha:1.0];
 
 }
