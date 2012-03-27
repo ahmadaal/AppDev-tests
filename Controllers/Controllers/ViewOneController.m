@@ -10,9 +10,10 @@
 
 @implementation ViewOneController
 
-@synthesize slider, sliderval, label;
+@synthesize slider, sliderval, label, button;
 @synthesize rootview;
 @synthesize colorModel;
+@synthesize viewtwo;
 
 - (IBAction)sliderChangedValue:(UISlider *)sender {
     self.sliderval = sender.value;
@@ -25,10 +26,14 @@
      */
     self.label.text = [NSString stringWithFormat:@"%d",sliderval];
     NSLog(@"sliderVal/255.0: %F",((double)sliderval)/255.0);
-    [self.colorModel setColorInt:((double)sliderval)/255.0];
+    [self.colorModel setColorDbl:((double)sliderval)/255.0];
 
 }
 
+-(IBAction)buttonWasPressed:(id)sender {
+    [self.navigationController pushViewController:viewtwo animated:YES];
+}
+/*
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil model:(ColorModel *)model {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
@@ -36,7 +41,7 @@
     }
     return self;
 }
-
+*/
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -48,7 +53,6 @@
 
 - (void)dealloc
 {
-    [colorModel dealloc];
     [super dealloc];
 }
 
@@ -66,8 +70,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    //slider.value = sliderval;
-    
+    slider.value = [colorModel colorDbl]*255;
+    [self.button setTitle:@"view 2" forState:UIControlStateNormal];
+    viewtwo = [[ViewTwoController alloc] init];
+    viewtwo.colorModel = colorModel;
 }
 
 - (void)viewDidUnload
@@ -82,7 +88,6 @@
 }
 
 -(void)viewDidDisappear:(BOOL)animated {
-    NSLog(@"sliderval on disappear: %d",sliderval);
 }
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {

@@ -16,21 +16,13 @@
 @synthesize colorVal;
 @synthesize colorModel;
 
-- (void)changeColorWithInt:(int)colorInt {
-    NSLog(@"colorVal: %d",colorInt);
-    self.view.backgroundColor = [UIColor colorWithHue:(CGFloat)colorInt
-                                               saturation:(CGFloat)colorInt
-                                               brightness:(CGFloat)colorInt 
-                                                    alpha:(CGFloat)colorInt];
-}
-
 - (IBAction) onButtonClick:(id)sender {
     /*
-     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"he" message:@"hs" delegate:self cancelButtonTitle:@"cancel" otherButtonTitles:nil, nil];
+     UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"he" message:@"hs" delegate:self cancelButtonTitle:@"xcancel" otherButtonTitles:nil, nil];
     [alert show];
      */
     
-    viewone.colorModel = colorModel;
+  
     [self.navigationController pushViewController:viewone animated:YES];
     
 }
@@ -40,21 +32,23 @@
     [self setTitle:@"ME"];
     [self.button setTitle:@"click me" forState:UIControlStateNormal];
     colorModel = [[ColorModel alloc] init];
-    [colorModel setColorInt:50];
+    [colorModel setColorDbl:0.5];
     viewone = [[ViewOneController alloc] initWithNibName:nil bundle:nil];
+    viewone.colorModel = colorModel;
+
 }
 
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    NSLog(@"root screen appeared w/colorval %F",[colorModel colorDbl]);
+    NSLog(@"UIColor : %@",[colorModel colorfromInt]);
+    [self.view setBackgroundColor:[colorModel colorfromInt]];
 }
 
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    NSLog(@"root screen appeared w/colorval %d",[colorModel colorInt]);
-    NSLog(@"UIColor : %@",[colorModel colorfromInt]);
-    [self.view setBackgroundColor:[colorModel colorfromInt]];
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -170,6 +164,7 @@
 
 - (void)dealloc
 {
+    [colorModel dealloc];
     [super dealloc];
 }
 

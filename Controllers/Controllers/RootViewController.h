@@ -24,6 +24,4 @@
 
 -(IBAction) onButtonClick:(id) sender;
 
--(void)changeColorWithInt:(int)colorVal;
-
 @end

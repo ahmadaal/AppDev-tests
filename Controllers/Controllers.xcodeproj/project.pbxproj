@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		874D27EA152162B900308A70 /* ViewTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 874D27E8152162B900308A70 /* ViewTwoController.m */; };
+		874D27EB152162B900308A70 /* ViewTwoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 874D27E9152162B900308A70 /* ViewTwoController.xib */; };
 		8768AD3D151FA1BF00E3B48B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8768AD3C151FA1BF00E3B48B /* UIKit.framework */; };
 		8768AD3F151FA1BF00E3B48B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8768AD3E151FA1BF00E3B48B /* Foundation.framework */; };
 		8768AD41151FA1BF00E3B48B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8768AD40151FA1BF00E3B48B /* CoreGraphics.framework */; };
@@ -22,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		874D27E7152162B900308A70 /* ViewTwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewTwoController.h; sourceTree = "<group>"; };
+		874D27E8152162B900308A70 /* ViewTwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewTwoController.m; sourceTree = "<group>"; };
+		874D27E9152162B900308A70 /* ViewTwoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewTwoController.xib; sourceTree = "<group>"; };
 		8768AD38151FA1BF00E3B48B /* Controllers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Controllers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8768AD3C151FA1BF00E3B48B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8768AD3E151FA1BF00E3B48B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -93,6 +98,9 @@
 				8768AD51151FA1BF00E3B48B /* RootViewController.h */,
 				8768AD52151FA1BF00E3B48B /* RootViewController.m */,
 				8768AD54151FA1BF00E3B48B /* RootViewController.xib */,
+				874D27E7152162B900308A70 /* ViewTwoController.h */,
+				874D27E8152162B900308A70 /* ViewTwoController.m */,
+				874D27E9152162B900308A70 /* ViewTwoController.xib */,
 				8768AD5C151FA3EF00E3B48B /* ViewOneController.h */,
 				8768AD5D151FA3F000E3B48B /* ViewOneController.m */,
 				8768AD5E151FA3F000E3B48B /* ViewOneController.xib */,
@@ -165,6 +173,7 @@
 				8768AD50151FA1BF00E3B48B /* MainWindow.xib in Resources */,
 				8768AD56151FA1BF00E3B48B /* RootViewController.xib in Resources */,
 				8768AD60151FA3F000E3B48B /* ViewOneController.xib in Resources */,
+				874D27EB152162B900308A70 /* ViewTwoController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +189,7 @@
 				8768AD53151FA1BF00E3B48B /* RootViewController.m in Sources */,
 				8768AD5F151FA3F000E3B48B /* ViewOneController.m in Sources */,
 				8768AD63151FB8CC00E3B48B /* ColorModel.m in Sources */,
+				874D27EA152162B900308A70 /* ViewTwoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +302,7 @@
 				8768AD5B151FA1BF00E3B48B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

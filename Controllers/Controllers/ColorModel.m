@@ -11,26 +11,26 @@
 
 @implementation ColorModel
 
-@synthesize colorInt, colorfromInt;
+@synthesize colorDbl, colorfromInt;
 
 -(UIColor *)colorfromInt {
-    CGFloat colorIntAsCGFloat = (CGFloat)colorInt;
-    NSLog(@"colorIntAsCGFloat is %f",colorIntAsCGFloat);
-    return [UIColor colorWithRed:colorInt                                   
-                           green:colorInt
-                            blue:colorInt
+    CGFloat colorDblAsCGFloat = (CGFloat)colorDbl;
+    NSLog(@"colorDblAsCGFloat is %f",colorDblAsCGFloat);
+    return [UIColor colorWithRed:colorDbl                                   
+                           green:colorDbl/2
+                            blue:colorDbl/4
                            alpha:1.0];
 
 }
 /*
--(ColorModel *)initWithColorInt:(int)color {
-    colorInt = color;
+-(ColorModel *)initWithcolorDbl:(int)color {
+    colorDbl = color;
     return self;
 }
 */
--(void)setColorInt:(double)color{
-    NSLog(@"setColorInt with %F", color);
-    colorInt = color;
+-(void)setcolorDbl:(double)color{
+    NSLog(@"setcolorDbl with %F", color);
+    colorDbl = color;
 }
 
 @end

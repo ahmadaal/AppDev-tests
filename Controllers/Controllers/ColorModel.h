@@ -9,11 +9,13 @@
 #import <Foundation/Foundation.h>
 
 @interface ColorModel : NSObject {
-    double colorInt;
+    double colorDbl;
     UIColor *colorfromInt;
 }
 
-@property (nonatomic) double colorInt;
+@property (nonatomic) double colorDbl;
 @property (nonatomic, retain) UIColor *colorfromInt;
+
+-(void)setcolorDbl:(double)color;
 
 @end
