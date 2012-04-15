@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87243C9815252E4300F4C147 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87243C9715252E4300F4C147 /* UIKit.framework */; };
+		87243C9A15252E4300F4C147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87243C9915252E4300F4C147 /* Foundation.framework */; };
+		87243C9C15252E4300F4C147 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87243C9B15252E4300F4C147 /* CoreGraphics.framework */; };
+		87243CA215252E4300F4C147 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87243CA015252E4300F4C147 /* InfoPlist.strings */; };
+		87243CA515252E4300F4C147 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87243CA415252E4300F4C147 /* main.m */; };
+		87243CA815252E4300F4C147 /* JSONexptAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87243CA715252E4300F4C147 /* JSONexptAppDelegate.m */; };
+		87243CAB15252E4300F4C147 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87243CA915252E4300F4C147 /* MainWindow.xib */; };
+		87243CAE15252E4300F4C147 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87243CAD15252E4300F4C147 /* RootViewController.m */; };
+		87243CB115252E4300F4C147 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87243CAF15252E4300F4C147 /* RootViewController.xib */; };
+		87243CDE152532AB00F4C147 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 87243CDB152532AB00F4C147 /* JSONKit.m */; };
+		87243CDF152532AB00F4C147 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 87243CDC152532AB00F4C147 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87243C9315252E4300F4C147 /* JSONexpt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONexpt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87243C9715252E4300F4C147 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87243C9915252E4300F4C147 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87243C9B15252E4300F4C147 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87243C9F15252E4300F4C147 /* JSONexpt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSONexpt-Info.plist"; sourceTree = "<group>"; };
+		87243CA115252E4300F4C147 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87243CA315252E4300F4C147 /* JSONexpt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSONexpt-Prefix.pch"; sourceTree = "<group>"; };
+		87243CA415252E4300F4C147 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87243CA615252E4300F4C147 /* JSONexptAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONexptAppDelegate.h; sourceTree = "<group>"; };
+		87243CA715252E4300F4C147 /* JSONexptAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONexptAppDelegate.m; sourceTree = "<group>"; };
+		87243CAA15252E4300F4C147 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		87243CAC15252E4300F4C147 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		87243CAD15252E4300F4C147 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		87243CB015252E4300F4C147 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		87243CDA152532AB00F4C147 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONKit.h; path = "johnezang-JSONKit-02b983f/JSONKit.h"; sourceTree = "<group>"; };
+		87243CDB152532AB00F4C147 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONKit.m; path = "johnezang-JSONKit-02b983f/JSONKit.m"; sourceTree = "<group>"; };
+		87243CDC152532AB00F4C147 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = "johnezang-JSONKit-02b983f/README.md"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87243C9015252E4200F4C147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87243C9815252E4300F4C147 /* UIKit.framework in Frameworks */,
+				87243C9A15252E4300F4C147 /* Foundation.framework in Frameworks */,
+				87243C9C15252E4300F4C147 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87243C8815252E4200F4C147 = {
+			isa = PBXGroup;
+			children = (
+				87243C9D15252E4300F4C147 /* JSONexpt */,
+				87243C9615252E4300F4C147 /* Frameworks */,
+				87243C9415252E4300F4C147 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87243C9415252E4300F4C147 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87243C9315252E4300F4C147 /* JSONexpt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87243C9615252E4300F4C147 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87243C9715252E4300F4C147 /* UIKit.framework */,
+				87243C9915252E4300F4C147 /* Foundation.framework */,
+				87243C9B15252E4300F4C147 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87243C9D15252E4300F4C147 /* JSONexpt */ = {
+			isa = PBXGroup;
+			children = (
+				87243CA615252E4300F4C147 /* JSONexptAppDelegate.h */,
+				87243CA715252E4300F4C147 /* JSONexptAppDelegate.m */,
+				87243CA915252E4300F4C147 /* MainWindow.xib */,
+				87243CAC15252E4300F4C147 /* RootViewController.h */,
+				87243CAD15252E4300F4C147 /* RootViewController.m */,
+				87243CD71525329E00F4C147 /* JSONKit */,
+				87243CAF15252E4300F4C147 /* RootViewController.xib */,
+				87243C9E15252E4300F4C147 /* Supporting Files */,
+			);
+			path = JSONexpt;
+			sourceTree = "<group>";
+		};
+		87243C9E15252E4300F4C147 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87243C9F15252E4300F4C147 /* JSONexpt-Info.plist */,
+				87243CA015252E4300F4C147 /* InfoPlist.strings */,
+				87243CA315252E4300F4C147 /* JSONexpt-Prefix.pch */,
+				87243CA415252E4300F4C147 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87243CD71525329E00F4C147 /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				87243CDA152532AB00F4C147 /* JSONKit.h */,
+				87243CDB152532AB00F4C147 /* JSONKit.m */,
+				87243CDC152532AB00F4C147 /* README.md */,
+			);
+			name = JSONKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87243C9215252E4200F4C147 /* JSONexpt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87243CB415252E4300F4C147 /* Build configuration list for PBXNativeTarget "JSONexpt" */;
+			buildPhases = (
+				87243C8F15252E4200F4C147 /* Sources */,
+				87243C9015252E4200F4C147 /* Frameworks */,
+				87243C9115252E4200F4C147 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONexpt;
+			productName = JSONexpt;
+			productReference = 87243C9315252E4300F4C147 /* JSONexpt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87243C8A15252E4200F4C147 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 87243C8D15252E4200F4C147 /* Build configuration list for PBXProject "JSONexpt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 87243C8815252E4200F4C147;
+			productRefGroup = 87243C9415252E4300F4C147 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87243C9215252E4200F4C147 /* JSONexpt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87243C9115252E4200F4C147 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87243CA215252E4300F4C147 /* InfoPlist.strings in Resources */,
+				87243CAB15252E4300F4C147 /* MainWindow.xib in Resources */,
+				87243CB115252E4300F4C147 /* RootViewController.xib in Resources */,
+				87243CDF152532AB00F4C147 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87243C8F15252E4200F4C147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87243CA515252E4300F4C147 /* main.m in Sources */,
+				87243CA815252E4300F4C147 /* JSONexptAppDelegate.m in Sources */,
+				87243CAE15252E4300F4C147 /* RootViewController.m in Sources */,
+				87243CDE152532AB00F4C147 /* JSONKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87243CA015252E4300F4C147 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87243CA115252E4300F4C147 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87243CA915252E4300F4C147 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87243CAA15252E4300F4C147 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		87243CAF15252E4300F4C147 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87243CB015252E4300F4C147 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87243CB215252E4300F4C147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87243CB315252E4300F4C147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		87243CB515252E4300F4C147 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSONexpt/JSONexpt-Prefix.pch";
+				INFOPLIST_FILE = "JSONexpt/JSONexpt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87243CB615252E4300F4C147 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JSONexpt/JSONexpt-Prefix.pch";
+				INFOPLIST_FILE = "JSONexpt/JSONexpt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87243C8D15252E4200F4C147 /* Build configuration list for PBXProject "JSONexpt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87243CB215252E4300F4C147 /* Debug */,
+				87243CB315252E4300F4C147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87243CB415252E4300F4C147 /* Build configuration list for PBXNativeTarget "JSONexpt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87243CB515252E4300F4C147 /* Debug */,
+				87243CB615252E4300F4C147 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87243C8A15252E4200F4C147 /* Project object */;
+}
